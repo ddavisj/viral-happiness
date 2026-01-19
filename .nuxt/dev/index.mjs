@@ -1366,7 +1366,7 @@ async function errorHandler(error, event) {
   // H3 will handle fallback
 }
 
-const script = `
+const script$1 = `
 if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
   Object.defineProperty(window, '__NUXT_DEVTOOLS_TIME_METRIC__', {
     value: {},
@@ -1379,13 +1379,13 @@ window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 
 const _LQd85L36fTOWSVjZKNCKlk0KZ7n475gveNZMWXZMVvY = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
-    htmlContext.head.push(`<script>${script}<\/script>`);
+    htmlContext.head.push(`<script>${script$1}<\/script>`);
   });
 });
 
 const rootDir = "/home/david/workspace/viral-happiness/www";
 
-const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"description","content":"Viral Happiness transforms public spaces in Naarm/Melbourne into vibrant, inclusive social hubs through pop-up events, fire performances, and community gatherings."},{"property":"og:title","content":"Viral Happiness | Naarm/Melbourne Community"},{"property":"og:description","content":"Transforming public spaces into vibrant, inclusive social hubs."},{"property":"og:type","content":"website"},{"name":"theme-color","content":"#F97316"}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.ico"}],"style":[],"script":[],"noscript":[],"title":"Viral Happiness | Naarm/Melbourne Community"};
+const appHead = {"meta":[{"name":"color-scheme","content":"dark"},{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"description","content":"Viral Happiness transforms public spaces in Naarm/Melbourne into vibrant, inclusive social hubs through pop-up events, fire performances, and community gatherings."},{"property":"og:title","content":"Viral Happiness | Naarm/Melbourne Community"},{"property":"og:description","content":"Transforming public spaces into vibrant, inclusive social hubs."},{"property":"og:type","content":"website"},{"name":"theme-color","content":"#F97316"}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.ico"}],"style":[],"script":[],"noscript":[],"title":"Viral Happiness | Naarm/Melbourne Community"};
 
 const appRootTag = "div";
 
@@ -1475,9 +1475,18 @@ function onConsoleLog(callback) {
   consola$1.wrapConsole();
 }
 
+const script = "\"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"dark\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedia&&f(\"\").media!==\"not all\"){for(const o of c)if(f(\":\"+o).matches)return o}return\"dark\"}})();function getStorageValue(t,e){switch(t){case\"localStorage\":return window.localStorage.getItem(e);case\"sessionStorage\":return window.sessionStorage.getItem(e);case\"cookie\":return getCookie(e);default:return null}}function getCookie(t){const c=(\"; \"+window.document.cookie).split(\"; \"+t+\"=\");if(c.length===2)return c.pop()?.split(\";\").shift()}";
+
+const _L0ed0sdqfXlAOPa9SiGPISPz4ef9CfDlL0c8nyEJ_vE = (function(nitro) {
+  nitro.hooks.hook("render:html", (htmlContext) => {
+    htmlContext.head.push(`<script>${script}<\/script>`);
+  });
+});
+
 const plugins = [
   _LQd85L36fTOWSVjZKNCKlk0KZ7n475gveNZMWXZMVvY,
-_PSwxK8ckFP5vDm_70C3T6FWH0BD_NRMtltuh2kjfb64
+_PSwxK8ckFP5vDm_70C3T6FWH0BD_NRMtltuh2kjfb64,
+_L0ed0sdqfXlAOPa9SiGPISPz4ef9CfDlL0c8nyEJ_vE
 ];
 
 const assets = {};

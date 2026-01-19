@@ -21,7 +21,7 @@
 </script>
 
 <template>
-   <div class="min-h-screen bg-background text-foreground">
+   <div class="dark min-h-screen bg-background text-foreground">
       <!-- Navigation -->
       <header
          class="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50"

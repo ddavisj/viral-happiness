@@ -19,8 +19,11 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/pages/runtime/plugins/check-if-page-unused.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+devtools@3.1.1_vite@7.3.1_@types+node@22.19.7_jiti@2.6.1_terser@5.46.0_yaml@2.8.2__vue@3.5.26_typescript@5.9.3_/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.server.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+devtools@3.1.1_vite@7.3.1_@types+node@22.19.7_jiti@2.6.1_terser@5.46.0_yaml@2.8.2__vue@3.5.26_typescript@5.9.3_/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js")> &
+  InjectionType<typeof import("../../node_modules/.pnpm/@nuxtjs+color-mode@4.0.0_magicast@0.5.1/node_modules/@nuxtjs/color-mode/dist/runtime/plugin.server.js")> &
+  InjectionType<typeof import("../../node_modules/.pnpm/@nuxtjs+color-mode@4.0.0_magicast@0.5.1/node_modules/@nuxtjs/color-mode/dist/runtime/plugin.client.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/app/plugins/warn.dev.server.js")> &
-  InjectionType<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/app/plugins/check-if-layout-used.js")>
+  InjectionType<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/app/plugins/check-if-layout-used.js")> &
+  InjectionType<typeof import("../../app/plugins/force-dark.client")>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }

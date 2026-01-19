@@ -1,5 +1,11 @@
+<script setup>
+   onMounted(() => {
+      document.documentElement.classList.add('dark')
+   })
+</script>
+
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+   <NuxtLayout>
+      <NuxtPage />
+   </NuxtLayout>
 </template>
