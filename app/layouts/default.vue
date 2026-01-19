@@ -48,6 +48,9 @@
                   >
                      {{ link.name }}
                   </a>
+
+                  <DonateButton divClass="" />
+
                   <a
                      href="https://instagram.com/viral_happiness"
                      target="_blank"
@@ -118,7 +121,7 @@
                      >
                         {{ link.name }}
                      </a>
-                     <DonateButton />
+                     <DonateButton divClass="mb-3" />
                      <div class="w-1/2 mx-auto">
                         <a
                            href="https://instagram.com/viral_happiness"

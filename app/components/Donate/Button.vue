@@ -1,10 +1,15 @@
 <script setup lang="ts">
    const donateLink = useDonateLink()
+
+   defineProps<{
+      divClass: string
+   }>()
 </script>
 
 <template>
    <div
-      class="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up mb-3"
+      :class="`${divClass} ${divClass ? 'animate-slide-up' : ''}`"
+      class="flex flex-col sm:flex-row items-center justify-center gap-4"
    >
       <a :href="donateLink" class="btn-donate" target="_blank">
          <svg

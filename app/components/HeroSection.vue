@@ -54,7 +54,7 @@
                </div>
             </a> -->
 
-            <DonateButton />
+            <DonateButton divClass="mb-3" />
             <!-- <div
                class="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up mb-6"
             >
