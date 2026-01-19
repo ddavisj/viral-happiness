@@ -12,14 +12,7 @@ export default defineNuxtConfig({
       '@nuxt/image',
       '@nuxt/fonts',
       '@vueuse/nuxt',
-      '@nuxtjs/color-mode',
    ],
-
-   colorMode: {
-      preference: 'dark',
-      fallback: 'dark',
-      classSuffix: '',
-   },
 
    app: {
       head: {

@@ -33,7 +33,6 @@ interface _GlobalComponents {
   'NuxtRouteAnnouncer': typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/app/components/nuxt-route-announcer").default
   'NuxtImg': typeof import("../../node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_ioredis@5.9.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue").default
   'NuxtPicture': typeof import("../../node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_ioredis@5.9.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue").default
-  'ColorScheme': typeof import("../../node_modules/.pnpm/@nuxtjs+color-mode@4.0.0_magicast@0.5.1/node_modules/@nuxtjs/color-mode/dist/runtime/component.vue").default
   'NuxtPage': typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/pages/runtime/page").default
   'NoScript': typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/head/runtime/components").NoScript
   'Link': typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/head/runtime/components").Link
@@ -64,7 +63,6 @@ interface _GlobalComponents {
   'LazyNuxtRouteAnnouncer': LazyComponent<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/app/components/nuxt-route-announcer").default>
   'LazyNuxtImg': LazyComponent<typeof import("../../node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_ioredis@5.9.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue").default>
   'LazyNuxtPicture': LazyComponent<typeof import("../../node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_ioredis@5.9.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue").default>
-  'LazyColorScheme': LazyComponent<typeof import("../../node_modules/.pnpm/@nuxtjs+color-mode@4.0.0_magicast@0.5.1/node_modules/@nuxtjs/color-mode/dist/runtime/component.vue").default>
   'LazyNuxtPage': LazyComponent<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/pages/runtime/page").default>
   'LazyNoScript': LazyComponent<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/head/runtime/components").NoScript>
   'LazyLink': LazyComponent<typeof import("../../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@2.5.4_@types+node@22.19.7_@vue+compiler-sfc@3.5.26_cac@6.7.14_db0@_mpmgxarh32fykwv4dnfyiits6y/node_modules/nuxt/dist/head/runtime/components").Link>

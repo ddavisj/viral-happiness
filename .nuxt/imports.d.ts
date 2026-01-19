@@ -32,5 +32,4 @@ export { definePageMeta } from '../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher
 export { defineLazyHydrationComponent } from '#app/composables/lazy-hydration';
 export { default as useDonateLink } from '../app/composables/useDonateLink';
 export { useImage } from '../node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_ioredis@5.9.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/composables';
-export { useColorMode } from '../node_modules/.pnpm/@nuxtjs+color-mode@4.0.0_magicast@0.5.1/node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useNuxtDevTools } from '../node_modules/.pnpm/@nuxt+devtools@3.1.1_vite@7.3.1_@types+node@22.19.7_jiti@2.6.1_terser@5.46.0_yaml@2.8.2__vue@3.5.26_typescript@5.9.3_/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';

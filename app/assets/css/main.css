@@ -4,26 +4,26 @@
 
 @layer base {
    :root {
-      /* Light mode - warm, inviting palette */
-      --color-background: 255 251 245; /* Warm white */
-      --color-foreground: 41 37 36; /* Dark stone */
+      /* DARK MODE DEFAULT */
+      --color-background: 15 14 12;
+      --color-foreground: 255 251 245;
 
-      --color-primary: 234 88 12; /* Deeper orange for light mode contrast */
+      --color-primary: 249 115 22;
       --color-primary-foreground: 255 255 255;
 
-      --color-secondary: 217 119 6; /* Amber */
-      --color-secondary-foreground: 255 255 255;
+      --color-secondary: 251 191 36;
+      --color-secondary-foreground: 15 14 12;
 
-      --color-accent: 220 38 38; /* Warm red */
+      --color-accent: 239 68 68;
       --color-accent-foreground: 255 255 255;
 
-      --color-muted: 245 245 244; /* Light stone */
-      --color-muted-foreground: 120 113 108;
+      --color-muted: 41 37 36;
+      --color-muted-foreground: 168 162 158;
 
-      --color-card: 255 255 255; /* White card */
-      --color-card-foreground: 41 37 36;
+      --color-card: 28 25 23;
+      --color-card-foreground: 255 251 245;
 
-      --color-border: 214 211 209;
+      --color-border: 68 64 60;
 
       --radius: 0.75rem;
    }
