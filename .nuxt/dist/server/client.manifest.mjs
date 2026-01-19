@@ -1,0 +1,1 @@
+export { default } from "file:///home/david/workspace/viral-happiness/www/node_modules/.pnpm/@nuxt+vite-builder@4.2.2_@types+node@22.19.7_magicast@0.5.1_nuxt@4.2.2_@parcel+watcher@2.5.4__dg7fvxf5377enbkm6kpxodoxnq/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
