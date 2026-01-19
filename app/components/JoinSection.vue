@@ -72,10 +72,10 @@
          <div class="w-full sm:w-1/2 mx-auto items-center">
             <!-- Content -->
             <div>
-               <span
+               <!-- <span
                   class="text-primary font-semibold text-sm uppercase tracking-wider"
                   >Join the Movement</span
-               >
+               > -->
                <h2
                   class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold mt-3 mb-6 text-balance"
                >

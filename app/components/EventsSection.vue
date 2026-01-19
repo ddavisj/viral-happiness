@@ -144,7 +144,7 @@
                   </div>
 
                   <!-- Action -->
-                  <div class="flex-shrink-0">
+                  <!-- <div class="flex-shrink-0">
                      <a
                         href="https://instagram.com/viral_happiness"
                         target="_blank"
@@ -166,7 +166,7 @@
                            />
                         </svg>
                      </a>
-                  </div>
+                  </div> -->
                </div>
             </article>
          </div>

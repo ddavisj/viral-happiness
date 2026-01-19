@@ -228,7 +228,7 @@
             </div>
 
             <div
-               class="border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm"
+               class="border-t border-border mt-8 pt-12 text-center text-muted-foreground text-lg"
             >
                <p>
                   We acknowledge the Wurundjeri Woi-wurrung people of the Kulin
@@ -236,10 +236,12 @@
                   gather.
                </p>
             </div>
+
             <div
-               class="w-1/5 border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm mx-auto"
+               class="w-1/5 border-t border-border mt-12 pt-8 text-center mx-auto"
             ></div>
-            <div class="text-center text-green-400">
+
+            <div class="text-center text-green-400 text-xl mb-6">
                <p>
                   <a href="https://eadigital.com.au" target="_blank"
                      >Website by EA Digital</a
